@@ -57,6 +57,7 @@ class Book implements Serializable{
     }
     @Override
     public String toString(){
+		System.out.println("这是子分支");
         return "书名："+title+",价格:"+price+",作者："+auther;
     }
 
