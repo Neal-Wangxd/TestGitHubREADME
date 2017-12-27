@@ -1,0 +1,13 @@
+diff --git a/Emp.java b/Emp.java
+index d291fb6..4e2967d 100644
+--- a/Emp.java
++++ b/Emp.java
+@@ -3,4 +3,7 @@ public class Emp implements Serializable{
+ 	private Integer empno;
+ 	private String ename;
+ 	private Date hiredate;
++	private Double sal;
++	private Double comm;
++	private Emp mgr;
+ }
+\ No newline at end of file

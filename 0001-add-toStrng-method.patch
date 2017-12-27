@@ -1,0 +1,25 @@
+From 9ddc9e72b29a0c48e5c9af031db73b9e46ea20d0 Mon Sep 17 00:00:00 2001
+From: Neal-Wangxd <wangxd_work@163.com>
+Date: Wed, 27 Dec 2017 14:50:49 +0800
+Subject: [PATCH] add toStrng method
+
+---
+ Emp.java | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/Emp.java b/Emp.java
+index 4e2967d..4cb0192 100644
+--- a/Emp.java
++++ b/Emp.java
+@@ -6,4 +6,7 @@ public class Emp implements Serializable{
+ 	private Double sal;
+ 	private Double comm;
+ 	private Emp mgr;
++	public String toString(){
++		return "one employee"；
++	}
+ }
+\ No newline at end of file
+-- 
+2.10.2.windows.1
+
