@@ -3,5 +3,6 @@ public class Hello{
 		System.out.println("Hello World");
 		System.out.println("获取当前时间:"+new java.util.Date().getTime());
 		System.out.println("Hello 这是一个测试暂存的分支");
+		Systen.out.println("这是一个测试暂存分支的流程HAPPY");
 	}
 }
